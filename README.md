@@ -79,10 +79,13 @@ const ponTaskEs = require('pon-task-es')
 
 ;(async () => {
   let run = pon({
-    myTask01: ponTaskEs()
+    'js:compile': ponTaskEs(
+      'client/src',
+      'client/shim'
+    )
   })
 
-  run('myTask01')
+  run('js:compile')
 }).catch((err) => console.error(err))
 
 ```
