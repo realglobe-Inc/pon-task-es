@@ -29,6 +29,7 @@
     "filecopy": "^3.0.1"
   },
   "devDependencies": {
+    "ababel-es2015": "^2.0.2",
     "amocha": "^2.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
