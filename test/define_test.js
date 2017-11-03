@@ -20,14 +20,21 @@ describe('define', function () {
   })
 
   it('Define', async () => {
-    let ctx = ponContext()
-    let task = define(
+    const ctx = ponContext()
+    const task = define(
       `${__dirname}/../misc/mocks/mock-project-01`,
       `${__dirname}/../tmp/shim/mock-project-01`,
       {}
     )
     ok(task)
 
+    await Promise.resolve(task(ctx))
+  })
+
+  it('File', async () => {
+    const ctx = ponContext()
+    const task = define.file(__filename, `${__dirname}/../tmp/shim-test-compiled`)
+    ok(task)
     await Promise.resolve(task(ctx))
   })
 })

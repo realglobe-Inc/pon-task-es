@@ -1,6 +1,6 @@
 {
   "name": "pon-task-es",
-  "version": "3.0.2",
+  "version": "3.1.0",
   "description": "Compile Javascript with ES2015",
   "main": "lib",
   "browser": "shim/browser",
@@ -23,19 +23,19 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-es#readme",
   "dependencies": {
-    "ababel": "^2.0.2",
-    "aglob": "^2.0.1",
-    "babel-preset-env": "^1.6.0",
-    "filecopy": "^3.0.1"
+    "ababel": "^2.0.3",
+    "aglob": "^3.0.0",
+    "babel-preset-env": "^1.6.1",
+    "filecopy": "^4.0.0"
   },
   "devDependencies": {
     "ababel-es2015": "^2.0.2",
-    "amocha": "^2.0.0",
+    "amocha": "^4.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^6.0.0",
+    "ape-tmpl": "^6.0.2",
     "ape-updating": "^4.1.0",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0",
