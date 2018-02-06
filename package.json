@@ -23,14 +23,15 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-es#readme",
   "dependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.38",
-    "@babel/preset-env": "^7.0.0-beta.38",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
     "ababel": "^4.0.6",
     "aglob": "^3.0.0",
-    "filecopy": "^4.0.0"
+    "filecopy": "^4.0.1"
   },
   "devDependencies": {
-    "amocha": "^4.0.0",
+    "@babel/core": "^7.0.0-beta.39",
+    "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
