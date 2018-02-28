@@ -26,11 +26,11 @@
     "@babel/core": "^7.0.0-beta.40",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.40",
     "@babel/preset-env": "^7.0.0-beta.40",
+    "ababel": "^4.0.7",
     "aglob": "^3.0.0",
     "filecopy": "^4.0.1"
   },
   "devDependencies": {
-    "ababel": "^4.0.7",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
