@@ -1,6 +1,6 @@
 {
   "name": "pon-task-es",
-  "version": "4.1.5",
+  "version": "4.1.6",
   "description": "Compile Javascript with ES2015",
   "main": "lib",
   "browser": "shim/browser",
