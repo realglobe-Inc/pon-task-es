@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-es#readme",
   "dependencies": {
-    "@babel/core": "*",
-    "@babel/plugin-proposal-object-rest-spread": "*",
-    "@babel/preset-env": "*",
+    "@babel/core": "7.0.0-beta.44",
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.44",
+    "@babel/preset-env": "7.0.0-beta.44",
     "ababel": "^4.0.9",
     "aglob": "^3.0.1",
     "filecopy": "^4.0.1"
