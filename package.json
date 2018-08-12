@@ -1,6 +1,6 @@
 {
   "name": "pon-task-es",
-  "version": "4.2.4",
+  "version": "4.3.0",
   "description": "Compile Javascript with ES2015",
   "main": "lib",
   "browser": "shim/browser",
@@ -23,10 +23,10 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-es#readme",
   "dependencies": {
-    "@babel/core": "7.0.0-beta.44",
-    "@babel/plugin-proposal-object-rest-spread": "7.0.0-beta.44",
-    "@babel/preset-env": "7.0.0-beta.44",
-    "ababel": "^4.0.9",
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "ababel": "^5.0.2",
     "aglob": "^3.0.1",
     "filecopy": "^4.0.1"
   },
