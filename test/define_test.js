@@ -6,7 +6,7 @@
 
 const define = require('../lib/define.js')
 const ponContext = require('pon-context')
-const {ok} = require('assert')
+const { ok } = require('assert')
 
 describe('define', function () {
   this.timeout(3000)
@@ -31,12 +31,6 @@ describe('define', function () {
     await Promise.resolve(task(ctx))
   })
 
-  it('File', async () => {
-    const ctx = ponContext()
-    const task = define.file(__filename, `${__dirname}/../tmp/shim-test-compiled`)
-    ok(task)
-    await Promise.resolve(task(ctx))
-  })
 })
 
 /* global describe, before, after, it */
