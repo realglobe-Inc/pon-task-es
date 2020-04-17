@@ -1,6 +1,6 @@
 {
   "name": "pon-task-es",
-  "version": "6.0.6",
+  "version": "6.0.7",
   "description": "Compile Javascript with es",
   "main": "lib",
   "browser": "shim/browser",
@@ -23,17 +23,17 @@
   },
   "homepage": "https://github.com/realglobe-Inc/pon-task-es#readme",
   "dependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
-    "@babel/plugin-transform-runtime": "^7.8.3",
-    "@babel/preset-env": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.5",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
     "aglob": "^3.0.2",
     "asfs": "^2.3.0",
     "pon-task-compile": "^4.0.5"
   },
   "devDependencies": {
     "ababel": "^6.1.2",
-    "amocha": "^7.0.1",
+    "amocha": "^7.0.2",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^2.0.2",
     "ape-releasing": "^5.0.7",
